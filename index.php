@@ -15,5 +15,5 @@ class Student{
 $one = new Student();
 $one->name = "Daniel";
 $one->admNo = "12345";
-
+ 
 ?>
