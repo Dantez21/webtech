@@ -86,6 +86,7 @@ if(isset($_POST['person_name']) && isset($_POST['submit'])) {
     <form action="<?= $_SERVER['PHP_SELF']?>" method="POST">
         <label for="person_name">Daniel, confirm your name</label><br>
         <input type="text" name="person_name">
+        <input type="text" name="person_name">
         <input type="submit" name="submit" value="send info"/>
     </form>
 
